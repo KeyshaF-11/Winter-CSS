@@ -156,4 +156,25 @@ body {
     top: 360px;
     right: 200px;
     border: 2px solid rgb(177, 177, 177);
+
+}
+.ear-pink1{
+    width: 70px;
+    height: 90px;
+    background-color: #ebc1c1;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+}
+
+.ear-pink2{
+    width: 70px;
+    height: 90px;
+    background-color: #ebc1c1;
+    border-radius: 50%;
+    position: absolute;
+    top: 360px;
+    right: 200px;
 }
