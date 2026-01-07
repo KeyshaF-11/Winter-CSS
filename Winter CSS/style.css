@@ -138,22 +138,22 @@ body {
 
 .ear1-left{
     width: 70px;
-    height: 70px;
+    height: 90px;
     background-color: #dfdfdf;
     border-radius: 50%;
     position: absolute;
-    top: 400px;
-    left: 220px;
+    top: 360px;
+    left: 200px;
     border: 2px solid rgb(177, 177, 177);
 }
 
 .ear1-right{
     width: 70px;
-    height: 70px;
+    height: 90px;
     background-color: #dfdfdf;
     border-radius: 50%;
     position: absolute;
-    top: 400px;
-    left: 500px;
+    top: 360px;
+    right: 200px;
     border: 2px solid rgb(177, 177, 177);
 }
