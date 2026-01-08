@@ -17,10 +17,19 @@ body {
 }
 
 .div-container {
+
+    display: block;
     width: 80%;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
+}
+
+.bear {
+    position: relative;
+    width: 300px;
+    height: 5500px;
+    margin: 0 auto;
 }
 
 .bear-head{
@@ -29,7 +38,9 @@ body {
     height: 300px;
     background-color: #dfdfdf;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
     margin: 0 auto;
     border-color: black;
     border: 2px solid rgb(177, 177, 177);
@@ -39,15 +50,15 @@ body {
 
 
 .hat2 {
-    position: relative;
-    top: -250px;
-    left: 4.5px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     width: 300px;
     height: 100px;
     background-color: rgb(202, 51, 64);
     border-radius: 50% 50% 20% 20% / 100% 100% 20% 20%;
-    position: relative;
-    margin: 0 auto;
 
     border: 2px solid rgb(187, 158, 158);
     border-bottom: 50px solid #f2f1ff; 
@@ -69,8 +80,8 @@ body {
     background-color: black;
     border-radius: 50%;
     position: absolute;
-    top: 450px;
-    left: 300px;
+    top: 230px;
+    left: 70px;
 
    
 }
@@ -81,8 +92,8 @@ body {
     background-color: black;
     border-radius: 50%;
     position: absolute;
-    top: 450px;
-    left: 430px;
+    top: 230px;
+    right: 70px;
 }
 
 .pupil-left{
@@ -132,8 +143,8 @@ body {
     border-bottom: 30px solid #000;
     transform: rotate(180deg);
     position: absolute;
-    top: 520px;
-    left: 365px;
+    top: 300px;
+    left: 120px;
 }
 
 .ear1-left{
@@ -142,8 +153,8 @@ body {
     background-color: #dfdfdf;
     border-radius: 50%;
     position: absolute;
-    top: 360px;
-    left: 200px;
+    top: 140px;
+    left: -35px;
     border: 2px solid rgb(177, 177, 177);
 }
 
@@ -153,28 +164,130 @@ body {
     background-color: #dfdfdf;
     border-radius: 50%;
     position: absolute;
-    top: 360px;
-    right: 200px;
+    top: 140px;
+    right: -35px;
     border: 2px solid rgb(177, 177, 177);
 
 }
 .ear-pink1{
-    width: 70px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     background-color: #ebc1c1;
     border-radius: 50%;
     position: absolute;
-    top: 200px;
-    left: 200px;
+    top: 20px;
+    left: 10px;
 
 }
 
 .ear-pink2{
-    width: 70px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     background-color: #ebc1c1;
     border-radius: 50%;
     position: absolute;
-    top: 360px;
-    right: 200px;
+    top: 20px;
+    right: 10px;
+}
+
+
+.belly{
+    width: 300px;
+    height: 350px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    position: absolute;
+    top: 400px;
+    left: 2px;
+    border: 2px solid rgb(182, 175, 175);
+}
+
+.foot-left{
+    width: 130px;
+    height: 90px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    position: absolute;
+    top: 660px;
+    left: 20px;
+    border: 2px solid rgb(182, 175, 175);
+    transform: rotate(40deg);    
+}
+
+.foot-right{
+    width: 130px;
+    height: 90px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    position: absolute;
+    top: 660px;
+    left: 150px;
+    border: 2px solid rgb(182, 175, 175);
+    transform: rotate(-40deg);  
+      
+
+}
+
+.scarf-1{
+    position: absolute;
+    top: 380px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 200px;
+    height: 80px;
+    background-color: rgb(202, 51, 64);
+    border-radius: 30% 30% 70% 70% / 60% 60% 40% 40%;
+
+    border: 2px solid rgb(151, 1, 1);;
+    
+}
+
+
+.scarf-2{
+    position: absolute;
+    top: 430px;
+    left: 60px;
+    width: 80px;
+    height: 150px;
+
+    border-radius: 30% 30% 70% 70% / 60% 60% 40% 40%;
+
+
+}
+
+.paw-1{
+    width: 200px;
+    height: 90px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    position: absolute;
+    top: 450px;
+    left: -90px;
+    border: 2px solid rgb(182, 175, 175);
+    transform: rotate(-55deg); 
+}
+
+.paw-2{
+    width: 200px;
+    height: 90px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    position: absolute;
+    top: 450px;
+    right: -90px;
+    border: 2px solid rgb(182, 175, 175);
+    transform: rotate(55deg); 
+
+}
+.paw-1holding{
+    width: 200px;
+    height: 90px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    position: absolute;
+    top: 490px;
+    left: -60px;
+    border: 2px solid rgb(182, 175, 175);
+    transform: rotate(-20deg); 
 }
