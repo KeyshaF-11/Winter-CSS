@@ -57,17 +57,18 @@ body {
     margin: 0 auto;
     width: 300px;
     height: 100px;
-    background-color: rgb(202, 51, 64);
+    background-image: url(img/pattern2.png);
     border-radius: 50% 50% 20% 20% / 100% 100% 20% 20%;
 
-    border: 2px solid rgb(187, 158, 158);
+   
+    border: 2px solid rgb(109, 10, 10);;
     border-bottom: 50px solid #f2f1ff; 
 }
 
 .circle{
     width: 100px;
     height: 100px;
-    background-color: hsl(0, 100%, 95%);
+    background-color: hsl(0, 100%, 98%);
     border-radius: 50%;
     position: absolute;
  
@@ -236,10 +237,10 @@ body {
     margin: 0 auto;
     width: 200px;
     height: 80px;
-    background-color: rgb(202, 51, 64);
+    background-image: url(img/pattern2.png);
     border-radius: 30% 30% 70% 70% / 60% 60% 40% 40%;
 
-    border: 2px solid rgb(151, 1, 1);;
+    border: 2px solid rgb(109, 10, 10);
     
 }
 
@@ -252,8 +253,8 @@ body {
     height: 150px;
 
     border-radius: 30% 30% 70% 70% / 60% 60% 40% 40%;
-
-
+    background-image: url(img/pattern2.png);
+    border: 2px solid rgb(109, 10, 10);
 }
 
 .paw-1{
@@ -290,4 +291,84 @@ body {
     left: -60px;
     border: 2px solid rgb(182, 175, 175);
     transform: rotate(-20deg); 
+}
+
+.paw-2holding{
+    width: 200px;
+    height: 90px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    position: absolute;
+    top: 490px;
+    right: -60px;
+    border: 2px solid rgb(182, 175, 175);
+    transform: rotate(20deg); 
+
+}
+
+.cup{
+    width: 120px;
+    height: 100px;
+    background-color: #e9b298;
+    border-radius: 20% 20% 80% 80% / 30% 30% 70% 70%;
+    position: absolute;
+    top: 480px;
+    left: 90px;
+    border: 2px solid rgb(150, 132, 123);
+}
+
+.cup-handle{
+    width: 40px;
+    height: 60px;
+    border: 8px solid #e9b298;
+    border-radius: 50%;
+    position: absolute;
+    top: 490px;
+    left: 200px;
+    border-color: #8f6353;
+}
+
+
+.hot-coco{
+    width: 30px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    top: 445px;
+    left: 140px;
+    background-color: #8f6353;
+    transform: rotate(90deg);
+}
+
+.marshmallow1{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 20%;
+    position: absolute;
+    top: 490px;
+    left: 130px;
+    transform: rotate(20deg);
+}
+
+.marshmallow2{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 20%;
+    position: absolute;
+    top: 490px;
+    left: 160px;
+    transform: rotate(-20deg);
+}
+
+.marshmallow3{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 20%;
+    position: absolute;
+    top: 499px;
+    left: 150px;
+
 }
