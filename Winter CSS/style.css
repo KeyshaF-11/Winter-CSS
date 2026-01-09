@@ -49,7 +49,7 @@ body {
 
 
 
-.hat2 {
+.hat {
     position: absolute;
     top: 70px;
     left: 0;
@@ -59,9 +59,7 @@ body {
     height: 100px;
     background-image: url(img/pattern2.png);
     border-radius: 50% 50% 20% 20% / 100% 100% 20% 20%;
-
-   
-    border: 2px solid rgb(109, 10, 10);;
+    border: 2px solid rgb(109, 10, 10);
     border-bottom: 50px solid #f2f1ff; 
 }
 
@@ -315,17 +313,6 @@ body {
     top: 480px;
     left: 90px;
     border: 2px solid rgb(150, 132, 123);
-}
-
-.cup-handle{
-    width: 40px;
-    height: 60px;
-    border: 8px solid #e9b298;
-    border-radius: 50%;
-    position: absolute;
-    top: 490px;
-    left: 200px;
-    border-color: #8f6353;
 }
 
 
